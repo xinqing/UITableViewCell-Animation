@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		610C36571C4E2C0300A3698F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C36561C4E2C0300A3698F /* main.m */; };
+		610C365A1C4E2C0300A3698F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C36591C4E2C0300A3698F /* AppDelegate.m */; };
+		610C36601C4E2C0300A3698F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610C365E1C4E2C0300A3698F /* Main.storyboard */; };
+		610C36621C4E2C0300A3698F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610C36611C4E2C0300A3698F /* Assets.xcassets */; };
+		610C36651C4E2C0300A3698F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610C36631C4E2C0300A3698F /* LaunchScreen.storyboard */; };
+		610C366F1C4E3C1900A3698F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C366D1C4E3C1900A3698F /* ViewController.m */; };
+		610C36701C4E3C1900A3698F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610C366E1C4E3C1900A3698F /* ViewController.xib */; };
+		610C36951C4F27FF00A3698F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C36941C4F27FF00A3698F /* FirstViewController.m */; };
+		610C36981C4F283200A3698F /* UITableViewCell+scaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C36971C4F283200A3698F /* UITableViewCell+scaleAnimation.m */; };
+		610C369F1C4F66F900A3698F /* CustomScaleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C369D1C4F66F900A3698F /* CustomScaleCell.m */; };
+		610C36A01C4F66F900A3698F /* CustomScaleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610C369E1C4F66F900A3698F /* CustomScaleCell.xib */; };
+		610C36A41C4F6A8000A3698F /* back6+23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 610C36A31C4F6A8000A3698F /* back6+23.jpg */; };
+		610C36A71C4F6BB500A3698F /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C36A61C4F6BB500A3698F /* SecondTableViewController.m */; };
+		610C36AA1C4F6C1600A3698F /* UITableViewCell+RoatationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C36A91C4F6C1600A3698F /* UITableViewCell+RoatationAnimation.m */; };
+		610C36B01C4F6FEF00A3698F /* UITableViewCell+IndentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C36AF1C4F6FEF00A3698F /* UITableViewCell+IndentAnimation.m */; };
+		610C36B61C4F724700A3698F /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C36B51C4F724700A3698F /* ThirdTableViewController.m */; };
+		610C36B81C4F755900A3698F /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 610C36B71C4F755900A3698F /* pic1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		610C36521C4E2C0300A3698F /* TableViewCellAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCellAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		610C36561C4E2C0300A3698F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		610C36581C4E2C0300A3698F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		610C36591C4E2C0300A3698F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		610C365F1C4E2C0300A3698F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		610C36611C4E2C0300A3698F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		610C36641C4E2C0300A3698F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		610C36661C4E2C0300A3698F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610C366C1C4E3C1900A3698F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		610C366D1C4E3C1900A3698F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		610C366E1C4E3C1900A3698F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		610C36931C4F27FF00A3698F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		610C36941C4F27FF00A3698F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		610C36961C4F283200A3698F /* UITableViewCell+scaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+scaleAnimation.h"; sourceTree = "<group>"; };
+		610C36971C4F283200A3698F /* UITableViewCell+scaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+scaleAnimation.m"; sourceTree = "<group>"; };
+		610C369C1C4F66F900A3698F /* CustomScaleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScaleCell.h; sourceTree = "<group>"; };
+		610C369D1C4F66F900A3698F /* CustomScaleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScaleCell.m; sourceTree = "<group>"; };
+		610C369E1C4F66F900A3698F /* CustomScaleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomScaleCell.xib; sourceTree = "<group>"; };
+		610C36A31C4F6A8000A3698F /* back6+23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "back6+23.jpg"; sourceTree = "<group>"; };
+		610C36A51C4F6BB500A3698F /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		610C36A61C4F6BB500A3698F /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		610C36A81C4F6C1600A3698F /* UITableViewCell+RoatationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+RoatationAnimation.h"; sourceTree = "<group>"; };
+		610C36A91C4F6C1600A3698F /* UITableViewCell+RoatationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+RoatationAnimation.m"; sourceTree = "<group>"; };
+		610C36AE1C4F6FEF00A3698F /* UITableViewCell+IndentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+IndentAnimation.h"; sourceTree = "<group>"; };
+		610C36AF1C4F6FEF00A3698F /* UITableViewCell+IndentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+IndentAnimation.m"; sourceTree = "<group>"; };
+		610C36B41C4F724700A3698F /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
+		610C36B51C4F724700A3698F /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		610C36B71C4F755900A3698F /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		610C364F1C4E2C0300A3698F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		610C36491C4E2C0300A3698F = {
+			isa = PBXGroup;
+			children = (
+				610C36541C4E2C0300A3698F /* TableViewCellAnimation */,
+				610C36531C4E2C0300A3698F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		610C36531C4E2C0300A3698F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610C36521C4E2C0300A3698F /* TableViewCellAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		610C36541C4E2C0300A3698F /* TableViewCellAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				610C36751C4E3E4B00A3698F /* First */,
+				610C367D1C4E3E4B00A3698F /* Second */,
+				610C36811C4E3E4B00A3698F /* Third */,
+				610C36581C4E2C0300A3698F /* AppDelegate.h */,
+				610C36591C4E2C0300A3698F /* AppDelegate.m */,
+				610C366C1C4E3C1900A3698F /* ViewController.h */,
+				610C366D1C4E3C1900A3698F /* ViewController.m */,
+				610C366E1C4E3C1900A3698F /* ViewController.xib */,
+				610C36B71C4F755900A3698F /* pic1.png */,
+				610C36A31C4F6A8000A3698F /* back6+23.jpg */,
+				610C365E1C4E2C0300A3698F /* Main.storyboard */,
+				610C36611C4E2C0300A3698F /* Assets.xcassets */,
+				610C36631C4E2C0300A3698F /* LaunchScreen.storyboard */,
+				610C36661C4E2C0300A3698F /* Info.plist */,
+				610C36551C4E2C0300A3698F /* Supporting Files */,
+			);
+			path = TableViewCellAnimation;
+			sourceTree = "<group>";
+		};
+		610C36551C4E2C0300A3698F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				610C36561C4E2C0300A3698F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		610C36751C4E3E4B00A3698F /* First */ = {
+			isa = PBXGroup;
+			children = (
+				610C36761C4E3E4B00A3698F /* Controller */,
+				610C36781C4E3E4B00A3698F /* View */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		610C36761C4E3E4B00A3698F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				610C36931C4F27FF00A3698F /* FirstViewController.h */,
+				610C36941C4F27FF00A3698F /* FirstViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		610C36781C4E3E4B00A3698F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				610C36961C4F283200A3698F /* UITableViewCell+scaleAnimation.h */,
+				610C36971C4F283200A3698F /* UITableViewCell+scaleAnimation.m */,
+				610C369C1C4F66F900A3698F /* CustomScaleCell.h */,
+				610C369D1C4F66F900A3698F /* CustomScaleCell.m */,
+				610C369E1C4F66F900A3698F /* CustomScaleCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		610C367D1C4E3E4B00A3698F /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				610C367E1C4E3E4B00A3698F /* Controller */,
+				610C36801C4E3E4B00A3698F /* View */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		610C367E1C4E3E4B00A3698F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				610C36A51C4F6BB500A3698F /* SecondTableViewController.h */,
+				610C36A61C4F6BB500A3698F /* SecondTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		610C36801C4E3E4B00A3698F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				610C36A81C4F6C1600A3698F /* UITableViewCell+RoatationAnimation.h */,
+				610C36A91C4F6C1600A3698F /* UITableViewCell+RoatationAnimation.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		610C36811C4E3E4B00A3698F /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				610C36821C4E3E4B00A3698F /* Controller */,
+				610C36841C4E3E4B00A3698F /* View */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		610C36821C4E3E4B00A3698F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				610C36B41C4F724700A3698F /* ThirdTableViewController.h */,
+				610C36B51C4F724700A3698F /* ThirdTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		610C36841C4E3E4B00A3698F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				610C36AE1C4F6FEF00A3698F /* UITableViewCell+IndentAnimation.h */,
+				610C36AF1C4F6FEF00A3698F /* UITableViewCell+IndentAnimation.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		610C36511C4E2C0300A3698F /* TableViewCellAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610C36691C4E2C0300A3698F /* Build configuration list for PBXNativeTarget "TableViewCellAnimation" */;
+			buildPhases = (
+				610C364E1C4E2C0300A3698F /* Sources */,
+				610C364F1C4E2C0300A3698F /* Frameworks */,
+				610C36501C4E2C0300A3698F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewCellAnimation;
+			productName = TableViewCellAnimation;
+			productReference = 610C36521C4E2C0300A3698F /* TableViewCellAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		610C364A1C4E2C0300A3698F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FeroMacMini2;
+				TargetAttributes = {
+					610C36511C4E2C0300A3698F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 610C364D1C4E2C0300A3698F /* Build configuration list for PBXProject "TableViewCellAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 610C36491C4E2C0300A3698F;
+			productRefGroup = 610C36531C4E2C0300A3698F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				610C36511C4E2C0300A3698F /* TableViewCellAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		610C36501C4E2C0300A3698F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610C36B81C4F755900A3698F /* pic1.png in Resources */,
+				610C36651C4E2C0300A3698F /* LaunchScreen.storyboard in Resources */,
+				610C36621C4E2C0300A3698F /* Assets.xcassets in Resources */,
+				610C36A41C4F6A8000A3698F /* back6+23.jpg in Resources */,
+				610C36A01C4F66F900A3698F /* CustomScaleCell.xib in Resources */,
+				610C36701C4E3C1900A3698F /* ViewController.xib in Resources */,
+				610C36601C4E2C0300A3698F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		610C364E1C4E2C0300A3698F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610C366F1C4E3C1900A3698F /* ViewController.m in Sources */,
+				610C365A1C4E2C0300A3698F /* AppDelegate.m in Sources */,
+				610C36981C4F283200A3698F /* UITableViewCell+scaleAnimation.m in Sources */,
+				610C369F1C4F66F900A3698F /* CustomScaleCell.m in Sources */,
+				610C36B01C4F6FEF00A3698F /* UITableViewCell+IndentAnimation.m in Sources */,
+				610C36AA1C4F6C1600A3698F /* UITableViewCell+RoatationAnimation.m in Sources */,
+				610C36571C4E2C0300A3698F /* main.m in Sources */,
+				610C36B61C4F724700A3698F /* ThirdTableViewController.m in Sources */,
+				610C36A71C4F6BB500A3698F /* SecondTableViewController.m in Sources */,
+				610C36951C4F27FF00A3698F /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		610C365E1C4E2C0300A3698F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610C365F1C4E2C0300A3698F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		610C36631C4E2C0300A3698F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610C36641C4E2C0300A3698F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		610C36671C4E2C0300A3698F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		610C36681C4E2C0300A3698F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		610C366A1C4E2C0300A3698F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewCellAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.fero.TableViewCellAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		610C366B1C4E2C0300A3698F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewCellAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.fero.TableViewCellAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		610C364D1C4E2C0300A3698F /* Build configuration list for PBXProject "TableViewCellAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610C36671C4E2C0300A3698F /* Debug */,
+				610C36681C4E2C0300A3698F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610C36691C4E2C0300A3698F /* Build configuration list for PBXNativeTarget "TableViewCellAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610C366A1C4E2C0300A3698F /* Debug */,
+				610C366B1C4E2C0300A3698F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 610C364A1C4E2C0300A3698F /* Project object */;
+}
